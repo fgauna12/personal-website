@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Facundo Gauna`,
-    subtitle: `Azure. DevOps. Kubernetes`,
-    description: `I help .NET teams build cloud-native applications`,
+    subtitle: `Helping .NET teams build cloud-native apps`,
+    description: ``,
     author: `@gaunacode`,
   },
   plugins: [

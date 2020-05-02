@@ -77,8 +77,8 @@ const Header = ({ siteTitle }) => (
     <Content>
       <p>
         <HomeLink to="/">{siteTitle}</HomeLink>
-        <NavLink to="/blog">Blog</NavLink>
-        <GitHubLink href="https://github.com/niklasmtj/gatsby-starter-julia">
+        <NavLink to="https://gauna.blog">Blog</NavLink>
+        <GitHubLink href="https://github.com/fgauna12">
           GitHub
         </GitHubLink>
       </p>
@@ -88,10 +88,14 @@ const Header = ({ siteTitle }) => (
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
+  siteBlob: PropTypes.string,
+  siteGitHub: PropTypes.string,
 }
 
 Header.defaultProps = {
   siteTitle: ``,
+  siteBlob: ``,
+  siteGitHub: ``
 }
 
 export default Header
